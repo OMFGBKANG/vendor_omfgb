@@ -34,7 +34,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.dateformat=MM-dd-yyyy \
     ro.com.android.dataroaming=false \
     ro.build.romversion=OMFGB \
-    ro.rommanager.developerid=r2d2 \
+    ro.rommanager.developerid=RonGokhle \
     ro.modversion=$(product-version) \
 
 # Common OMGB overlay

@@ -26,6 +26,8 @@ else ifeq ($(TARGET_PRODUCT),OMFGB_shadow)
   PRODUCT_MAKEFILES := $(LOCAL_DIR)/omfgb_shadow.mk
 else ifeq ($(TARGET_PRODUCT),OMFGB_vibrantmtd)	
   PRODUCT_MAKEFILES := $(LOCAL_DIR)/omfgb_vibrantmtd.mk
+else ifeq ($(TARGET_PRODUCT),OMFGB_p350)	
+  PRODUCT_MAKEFILES := $(LOCAL_DIR)/omfgb_p350.mk
 else ifeq ($(TARGET_PRODUCT),OMFGB_p999)	
   PRODUCT_MAKEFILES := $(LOCAL_DIR)/omfgb_p999.mk
 else ifeq ($(TARGET_PRODUCT),OMFGB_desirec_nightly)
